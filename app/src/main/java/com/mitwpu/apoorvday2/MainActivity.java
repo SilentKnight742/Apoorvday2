@@ -24,7 +24,7 @@ ImageView tv1;
         MediaPlayer mp=MediaPlayer.create(this, R.raw.song);
         mp.start();
         Handler h = new Handler();
-        h.postDelayed(this, 16000);
+        h.postDelayed(this, 12000);
     }
 
     @Override
@@ -32,4 +32,5 @@ ImageView tv1;
         Intent in = new Intent(this, HomeActivity.class);
         startActivity(in);
     }
+
 }
